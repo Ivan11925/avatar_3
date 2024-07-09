@@ -2,18 +2,41 @@ li {
   list-style: none;
 }
 
-.loggin {
+button {
   background-image: url(../img/header/header_log-in.jpg);
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: flex-end;
+  width: 141px;
+  height: 41.694px;
+  flex-shrink: 0;
+  color: #26c6ea;
 }
 
 .container {
-  max-height: 150px;
-  max-width: 1140px;
   background-image: url(../img/header/header_background.jpg);
   background-repeat: no-repeat;
+  width: 1500px;
+  height: 150px;
+}
+
+.header-container_logo {
+  margin-right: 184px;
+  margin-left: 25px;
+}
+
+.header-container_text {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header-link {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 45px;
+  margin-bottom: 220px;
+}
+
+.header-container_loggin {
+  margin-left: 1132px;
+  margin-right: 240px;
 }
 
 .header-text {
@@ -30,7 +53,7 @@ li {
 }
 
 .one {
-  background-image: url(../img/Main/section_one/section_background.jpg);
+  background-image: url(../img/Main/section_one/section_one_background.jpg);
   background-repeat: no-repeat;
   width: 1440px;
   height: 740px;

@@ -9,43 +9,44 @@
   <body>
     <header>
       <div class="container header-container">
-        <a href="./index.html" class="logo"
-          ><img
-            src="./img/header/header_logo.jpg"
-            alt="logo"
-            class="logo"
-            width="186"
-            height="72"
-        /></a>
-        <nav class="header-nav">
-          <ul class="header-list">
-            <li class="header-list_item">
-              <a href="./index.html" class="header-link">Main</a>
+        <div class="header-container_logo">
+          <a href="./index.html" class="logo"
+            ><img
+              src="./img/header/header_logo.jpg"
+              alt="logo"
+              class="logo"
+              width="186"
+              height="72"
+          /></a>
+        </div>
+        <div class="header-container_text">
+          <nav class="header-nav">
+            <ul class="header-list">
+              <li class="header-list_item">
+                <a href="./index.html" class="header-link">Main</a>
+              </li>
+              <li class="header-list_item">
+                <a href="#" class="header-link">About us</a>
+              </li>
+              <li class="header-list_item">
+                <a href="#" class="header-link">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header-container_loggin">
+          <ul class="logo-list">
+            <li class="logo-item">
+              <button class="switch-lang-button" type="button" title="button">
+                log in
+              </button>
             </li>
-            <li class="header-list_item">
-              <a href="#" class="header-link">About us</a>
-            </li>
-            <li class="header-list_item">
-              <a href="#" class="header-link">Contacts</a>
+            <li class="logo-item">
+              <p class="eng-title"></p>
+              <p class="ua-title"></p>
             </li>
           </ul>
-        </nav>
-        <ul class="logo-list">
-          <li class="logo-item">
-            <button type="button" title="button">Увійти</button>
-          </li>
-          <li class="logo-item">
-            <p class="eng-title"></p>
-            <button
-              class="switch-lang-button"
-              title="switch-language"
-              type="button"
-            >
-              <img src="" alt="" class="switch-lang-img" />
-            </button>
-            <p class="ua-title"></p>
-          </li>
-        </ul>
+        </div>
       </div>
     </header>
     <main>
@@ -60,7 +61,7 @@
           <li class="section_one-item">
             <img
               class="section_one_img"
-              src="./img/Main/section_one/white_arrow.jpg"
+              src="./img/Main/section_one/arrow.png"
               alt="arrow"
             />
           </li>
@@ -74,12 +75,12 @@
 
         <img
           class="section_one_img"
-          src="./img/Main/section_one/icon_instagram.jpg"
+          src="./img/Main/section_one/instagram.png"
           alt="instagram"
         />
         <img
           class="section_one_img"
-          src="./img/Main/section_one/icon_twitter.jpg"
+          src="./img/Main/section_one/twitter.png"
           alt="twitter"
         />
         <img
@@ -88,7 +89,7 @@
           alt="youtube"
         />
 
-        <a href="#" class="div">log in</a>
+        <button class="section_one_button" type="button">Join clan</button>
       </section>
       <section>
         <h2>“A LOT OF PEOPLE FROM THE SKY ARE GONNA COME. THEY’RE</h2>

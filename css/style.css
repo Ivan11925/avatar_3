@@ -1,13 +1,27 @@
 li {
   list-style: none;
 }
-
-button {
-  background-image: url(../img/header/header_log-in.jpg);
+.section_one_button {
+  color: #26c6ea;
+  width: 260px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 35px 0px;
+  border: 3px solid #26c7ea;
+  background: #0b0e66;
+}
+.button_conteiner {
+  padding-bottom: -200px;
+}
+.switch-lang-button {
   width: 141px;
   height: 41.694px;
   flex-shrink: 0;
   color: #26c6ea;
+  border-radius: 45px 0px;
+  border: 3px solid #26c7ea;
+  background: #0b0e66;
+  margin-top: 23px;
 }
 
 .container {
@@ -32,6 +46,15 @@ button {
   justify-content: space-evenly;
   margin: 45px;
   margin-bottom: 220px;
+  display: flex;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  border: #ea2626;
 }
 
 .header-container_loggin {
@@ -53,7 +76,7 @@ button {
 }
 
 .one {
-  background-image: url(../img/Main/section_one/section_one_background.jpg);
+  background-image: url(../img/Main/section_one/section_background.jpg);
   background-repeat: no-repeat;
   width: 1440px;
   height: 740px;
@@ -76,17 +99,6 @@ button {
   justify-content: space-evenly;
   align-items: center;
   margin: 38px;
-}
-
-.header_link {
-  display: flex;
-  color: #fff;
-  text-align: center;
-  font-family: Inter;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
 }
 
 .avatar {
@@ -113,4 +125,75 @@ button {
 
 .class {
   background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+.text_main {
+  width: 298px;
+  height: 96px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-content: end;
+}
+.text_main {
+  padding-top: 100px;
+  margin-bottom: -30px;
+}
+.section_one-item {
+  margin-top: -30px;
+  padding-top: 10px;
+}
+.text_main_ang {
+  width: 376px;
+  height: 123px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.section_one_img_with {
+  width: 152px;
+  height: 40px;
+  flex-shrink: 0;
+  background: url(../img/Main/section_one/arrow.png) / cover no-repeat;
+  margin-left: 60px;
+}
+.section_one_img {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.img_contackt {
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  margin-left: 1186px;
+}
+.section_one_img_i {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+}
+.section_one_img_t {
+  width: 34px;
+  height: 30px;
+  flex-shrink: 0;
+  padding-top: 24px;
+}
+.section_one_img_u {
+  width: 50px;
+  height: 30px;
+  flex-shrink: 0;
+  padding-top: 24px;
+  top: 561px;
+  left: 1186px;
+}
+.section_one-list-fin {
+  margin-left: 95px;
 }

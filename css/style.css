@@ -91,6 +91,8 @@ li {
   justify-content: space-evenly;
   align-items: center;
   margin: 38px;
+  padding-left: 350px;
+  padding-top: 20px;
 }
 
 .avatar {
@@ -232,7 +234,7 @@ li {
   width: 400px;
   height: 120px;
   flex-shrink: 0;
-  margin-left: 520px;
+  margin-left: 540px;
 }
 
 .four h2 {
@@ -243,6 +245,7 @@ li {
   font-weight: 400;
   line-height: normal;
   margin-left: 170px;
+  padding-left: 130px;
 }
 
 .four h4 {
@@ -307,7 +310,7 @@ li {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-left: 170px;
+  margin-left: 300px;
 }
 
 footer {
@@ -325,7 +328,16 @@ footer {
   height: 24px;
   display: flex;
   justify-content: start;
-  margin-left: 571px;
+  margin-left: 160px;
+  color: #fff;
+  text-align: justify;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  stroke-width: 20px;
+  stroke: #fff;
 }
 
 .footer-text {
@@ -333,26 +345,90 @@ footer {
   height: 24px;
   display: flex;
   justify-content: start;
-  margin-left: 571px;
+  margin-left: -30px;
+  padding-top: 65px;
+  color: #fff;
+
+  text-align: justify;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  stroke-width: 20px;
+  stroke: #fff;
 }
 
 .punktyr_one {
-  border: 2px solid red;
   width: 269px;
   height: 2px;
   stroke-width: 2px;
+  padding-top: 30px;
 }
 
 .punktyr_two {
-  border: 2px solid red;
   width: 194px;
   height: 2px;
   stroke-width: 2px;
   gap: 20px;
+  padding-top: 30px;
 }
 
 .footer-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.header-container_loggin {
+  margin-top: 200px;
+  max-height: 24px;
+  max-width: 293px;
+  display: flex;
+  position: relative;
+  justify-content: end;
+  align-items: end;
+  flex-direction: row;
+  margin: 30px;
+  padding-left: 1035px;
+  margin-right: 20px;
+  margin-top: -60px;
+}
+.logo-item {
+  display: flex;
+  flex-direction: row;
+}
+.eng-title {
+  padding-right: 50px;
+}
+.buton_hedr_hjhgf_fghtr {
+  padding-right: 40px;
+  display: flex;
+  padding-bottom: 20px;
+}
+.biton {
+  padding-right: 35px;
+}
+.footer_logo {
+  width: 183px;
+  height: 70px;
+  flex-shrink: 0;
+  padding-top: 30px;
+  padding-left: 100px;
+}
+.footer-column {
+  padding-left: 110px;
+}
+.sdfghnb {
+  color: #fff;
+  text-align: justify;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-left: 70px;
 }

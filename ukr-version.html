@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <!-- Modern normalize -->
     <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -12,70 +11,59 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     /> -->
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Headland+One&family=Inter:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Тут підключення стилів -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
       <div class="container header-container">
-        <a href="./index.html" class="logo"
-          ><img
-            src="./img/header/logo.png"
-            alt="logo"
-            class="logo"
-            width="186"
-            height="72"
-        /></a>
+        <div class="header-container_logo">
+          <a href="./index.html" class="logo"
+            ><img
+              src="./img/header/logo.png"
+              alt="logo"
+              class="logo"
+              width="186"
+              height="72"
+          /></a>
+        </div>
+        <div class="header-container_text">
+          <nav class="header-nav">
+            <ul class="header-list">
+              <li class="header-list_item">
+                <a href="./index.html" class="header-link">Головна</a>
+              </li>
+              <li class="header-list_item">
+                <a href="#" class="header-link">Про нас</a>
+              </li>
+              <li class="header-list_item">
+                <a href="#" class="header-link">Контакти</a>
+              </li>
+            </ul>
 
-        <nav class="header-nav">
-          <ul class="header-list">
-            <li class="header-list_item">
-              <a href="./index.html" class="header-link">Main</a>
-            </li>
-            <li class="header-list_item">
-              <a href="#" class="header-link">About us</a>
-            </li>
-            <li class="header-list_item">
-              <a href="#" class="header-link">Contacts</a>
-            </li>
-          </ul>
-        </nav>
+            <div class="header-container_loggin">
+              <ul class="logo-list">
+                <li class="buton_hedr_hjhgf_fghtr">
+                  <button
+                    class="switch-lang-button"
+                    type="button"
+                    title="button"
+                  >
+                    Увійти
+                  </button>
+                </li>
+                <li class="logo-item">
+                  <a href="./index.html" class="eng-title">ENG</a>
 
-        <ul class="logo-list">
-          <li class="button_switch-lang">
-            <button class="switch-lang-button" type="button" title="button">
-              Log in
-            </button>
-          </li>
-          <li class="logo-item">
-            <a
-              href="./index.html"
-              class="eng-title"
-              title="поміняти на англійську мову"
-              >ENG</a
-            >
-            <svg width="36" height="20">
-              <use href="./img/icons.svg#icon-switcher"></use>
-            </svg>
-            <a
-              href="./ukr-version.html"
-              class="ua-title"
-              title="chenge for Ukranian"
-              >UA</a
-            >
-          </li>
-        </ul>
+                  <a href="./ukr-version.html" class="ua-title">UA</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
       </div>
     </header>
     <main>
-      <!-- <section class="one">
+      <section class="one">
         <ul class="section_one-list-fin">
           <li class="section_one-list">
             <p class="text_main">
@@ -92,40 +80,40 @@
           </li>
           <li class="section_one-item">
             <p class="text_main_ang">
-              I'm speaking with the warrior! Your spirit goes with Eywa, your
-              body stays behind to become part of the People. Fight with us!
+              Хоробрий воїне, звертаюсь до тебе! Твій дух йде з Ейвою, твоє тіло
+              залишається, щоб стати частиною Народу. Борись разом з нами!
             </p>
-            <button class="section_one_button" type="button">Join clan</button>
+            <button class="section_one_button" type="button">
+              Приєднатися до клану
+            </button>
           </li>
         </ul>
-        <ul class="social-links-list">
-          <li class="social-links-item">
-            <a href="#" title="insta"
-              ><svg width="30" height="30">
-                <use href="./img/icons.svg#icon-inst-1"></use></svg
-            ></a>
-          </li>
-          <li class="social-links-item">
-            <a href="#" title="twitter"
-              ><svg width="30" height="30">
-                <use href="./img/icons.svg#icon-twitter-1"></use></svg
-            ></a>
-          </li>
-          <li class="social-links-item">
-            <a href="#" title="youtube"
-              ><svg width="30" height="30">
-                <use href="./img/icons.svg#icon-youtube-1"></use></svg
-            ></a>
+        <ul>
+          <li class="img_contackt">
+            <img
+              class="section_one_img_i"
+              src="./img/Main/section_one/instagram.png"
+              alt="instagram"
+            />
+            <img
+              class="section_one_img_t"
+              src="./img/Main/section_one/twitter.png"
+              alt="twitter"
+            />
+            <img
+              class="section_one_img_u"
+              src="./img/Main/section_one/icon_youtube.jpg"
+              alt="youtube"
+            />
           </li>
         </ul>
-        >a.social-link
       </section>
       <section class="two">
-        <h2>“A LOT OF PEOPLE FROM THE SKY ARE GONNA COME. THEY’RE</h2>
+        <h2>“БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ</h2>
         <h2 class="section_two-text">
-          GONNA COME LIKE A RAIN THAT NEVER ENDS.”
+          ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.”
         </h2>
-        <h4>JAKE SULLY</h4>
+        <h4>Джейк Саллі</h4>
         <img
           class="zero"
           src="./img/Main/section_two/angel.png"
@@ -135,59 +123,59 @@
         />
       </section>
       <section class="three">
-        <button class="section-three_button">Watch Trailer</button>
+        <button class="section-three_button">Дивитись трейлер</button>
       </section>
       <section class="four">
-        <h2>“ALL ENERGY IS ONLY BORROWED, AND ONE DAY</h2>
-        <h2>YOU HAVE TO GIVE IT BACK.”</h2>
-        <h4>JAKE SULLY</h4>
+        <h2>“ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ</h2>
+        <h2>ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”</h2>
+        <h4>Джейк Саллі</h4>
         <img class="zero" src="./img/Main/section_two/angel.png" alt="angel" />
       </section>
       <section class="section_five">
-        <h2 class="section_five-title">Let's learn the Na'vi language</h2>
+        <h2 class="section_five-title">Вчимо мову На’ві</h2>
         <div class="section_five-container">
           <div class="section_five-text">
-            <h4>hello</h4>
+            <h4>Привіт</h4>
             <img src="./img/Main/section_four/arrow_left.png" alt="left" />
             <h4>kaltxi</h4>
           </div>
           <div class="section_five-text">
-            <h4>How are you</h4>
+            <h4>Як справи?</h4>
             <img src="./img/Main/section_two/angel.png" alt="angel" />
             <h4>Ngaru lu fpom srak</h4>
           </div>
           <div class="section_five-text">
-            <h4>I`m Well</h4>
+            <h4>Все добре</h4>
             <img src="./img/Main/section_four/arrow_raght.png" alt="right" />
             <h4>Lu fpom</h4>
           </div>
         </div>
         <div class="section_five-container">
           <div class="section_five-text">
-            <h4>Thack you</h4>
+            <h4>Дякую</h4>
             <img src="./img/Main/section_four/arrow_left.png" alt="left" />
             <h4>irayo si</h4>
           </div>
           <div class="section_five-text">
-            <h4>I See You</h4>
+            <h4>Я бачу тебе</h4>
             <img src="./img/Main/section_two/angel.png" alt="angel" />
             <h4>oel ngati kameie</h4>
           </div>
           <div class="section_five-text">
-            <h4>Fllow me!</h4>
+            <h4>Слідуй за мною!</h4>
             <img src="./img/Main/section_four/arrow_raght.png" alt="right" />
             <h4>nong oet</h4>
           </div>
         </div>
       </section>
       <section class="six">
-        <h2>“OUR GREAT MOTHER DOES NOT TAKE SIDES,</h2>
-        <h2>SHE PROTECTS ONLY THE BALANCE OF LIFE.”</h2>
-        <h4>JAKE SULLY</h4>
+        <h2>“НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ,</h2>
+        <h2>ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС.”</h2>
+        <h4>Нейтірі</h4>
         <img class="zero" src="./img/Main/section_two/angel.png" alt="angel" />
-      </section> -->
+      </section>
     </main>
-    <!-- <footer>
+    <footer>
       <div class="footer">
         <div class="footer-container">
           <img class="footer_logo" src="./img/header/logo.png" alt="logo" />
@@ -219,6 +207,6 @@
           </h5>
         </div>
       </div>
-    </footer> -->
+    </footer>
   </body>
 </html>

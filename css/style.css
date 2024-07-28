@@ -10,9 +10,7 @@ li {
   border: 3px solid #26c7ea;
   background: #0b0e66;
 }
-.button_conteiner {
-  padding-bottom: -200px;
-}
+
 .switch-lang-button {
   width: 141px;
   height: 41.694px;
@@ -92,7 +90,7 @@ li {
   align-items: center;
   margin: 38px;
   padding-left: 350px;
-  padding-top: 20px;
+  padding-top: 0px;
 }
 
 .avatar {
@@ -151,7 +149,7 @@ li {
   width: 152px;
   height: 40px;
   flex-shrink: 0;
-  background: url(../img/Main/section_one/arrow.png) / cover no-repeat;
+  background: url(../img/Main/section_one/arrow.png);
   margin-left: 60px;
 }
 .section_one_img {
@@ -397,6 +395,8 @@ footer {
 .logo-item {
   display: flex;
   flex-direction: row;
+  padding-right: 40px;
+  padding-bottom: 30px;
 }
 .eng-title {
   padding-right: 50px;
@@ -431,4 +431,8 @@ footer {
   justify-content: center;
   padding-top: 100px;
   padding-left: 70px;
+}
+.logo {
+  padding-top: 30px;
+  padding-left: 30px;
 }

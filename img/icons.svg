@@ -1,5 +1,9 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
+<symbol id="icon-switcher-eng" viewBox="0 0 58 32">
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.6" d="M16.001 0.799h25.602c8.395 0 15.201 6.806 15.201 15.201s-6.806 15.201-15.201 15.201h-25.602c-8.395 0-15.201-6.806-15.201-15.201s6.806-15.201 15.201-15.201z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M25.602 16c0 5.302-4.298 9.601-9.601 9.601s-9.601-4.298-9.601-9.601c0-5.302 4.298-9.601 9.601-9.601s9.601 4.298 9.601 9.601z"></path>
+</symbol>
 <symbol id="icon-inst-1" viewBox="0 0 32 32">
 <path fill="#fff" style="fill: var(--color1, #fff)" d="M9.28 0h13.44c5.12 0 9.28 4.16 9.28 9.28v13.44c0 5.125-4.155 9.28-9.28 9.28h-13.44c-5.12 0-9.28-4.16-9.28-9.28v-13.44c0-5.125 4.155-9.28 9.28-9.28v0zM8.96 3.2c-3.181 0-5.76 2.579-5.76 5.76v0 14.080c0 3.184 2.576 5.76 5.76 5.76h14.080c3.181 0 5.76-2.579 5.76-5.76v0-14.080c0-3.184-2.576-5.76-5.76-5.76h-14.080zM24.4 5.6c1.105 0 2 0.895 2 2s-0.895 2-2 2v0c-1.105 0-2-0.895-2-2s0.895-2 2-2v0zM16 8c4.418 0 8 3.582 8 8s-3.582 8-8 8v0c-4.418 0-8-3.582-8-8s3.582-8 8-8v0zM16 11.2c-2.651 0-4.8 2.149-4.8 4.8s2.149 4.8 4.8 4.8v0c2.651 0 4.8-2.149 4.8-4.8s-2.149-4.8-4.8-4.8v0z"></path>
 </symbol>

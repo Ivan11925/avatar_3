@@ -1,10 +1,10 @@
 /* roots */
 :root {
-  --main-color: ;
-  --accent-color: ;
-  --text-color: ;
-  --button-color: ;
-  --accent-button-color: yellow;
+  --main-color: #fff;
+  --accent-color: #94cfff;
+  --text-color: #0a3853;
+  --button-color: #ea3026;
+  --accent-button-color: rgb(255, 221, 0);
   --main-font: "Inter", sans-serif;
   --button-font: "Headland One", serif;
 }
@@ -71,6 +71,7 @@ button {
   font-size: 24px;
   font-family: var(--button-font);
   font-weight: 400;
+  color: var(--button-color);
   font-style: normal;
   cursor: pointer;
   line-height: 25.05px;
@@ -83,13 +84,13 @@ button {
 a {
   text-decoration: none;
   color: inherit;
-  color: #fff;
+  color: var(--main-color);
   font-size: 20px;
   font-style: normal;
   font-weight: 300;
   &:hover,
   &:focus {
-    color: #94cfff;
+    color: var(--accent-color);
     font-weight: 600;
   }
 }
@@ -142,9 +143,9 @@ a {
   width: 141px;
   height: 41.694px;
   flex-shrink: 0;
-  color: #26c6ea;
+  color: var(--accent-color);
   border-radius: 45px 0px;
-  border: 3px solid #26c7ea;
+  border: 3px solid var(--accent-color);
   background: #0b0e66;
 }
 
@@ -153,17 +154,19 @@ a {
   gap: 49px;
 }
 
-.switch-icon {
-  fill: var(--accent-button-color);
-}
-
 .logo-item {
   gap: 10px;
 }
+/* Header end */
 
-/* Hero */
+/* Hero start */
 
 .hero-container {
-  background-image: url(../img/header/header_background.jpg);
+  height: 740px;
+  background-image: url(../img/Main/hero/hero-bg.jpg);
   background-repeat: no-repeat;
+}
+
+.hero-button {
+  background-image: url(../img/Main/hero/hero-button.jpg);
 }

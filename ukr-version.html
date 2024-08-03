@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Avatar</title>
+    <!-- Modern normalize -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -11,10 +12,18 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Headland+One&family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Тут підключення стилів -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container header-container">
         <a href="./index.html" class="header-logo"
           ><img src="./img/header/logo.png" alt="logo" class="header-logo-img"
@@ -48,7 +57,7 @@
               >ENG</a
             >
             <svg width="36" height="20" class="switch-icon">
-              <use href="./img/icons.svg#icon-switcher-ua"></use>
+              <use href="./img/icons.svg#icon-switcher-eng"></use>
             </svg>
             <a
               href="./ukr-version.html"
@@ -60,5 +69,195 @@
         </ul>
       </div>
     </header>
+    <main>
+      <section class="hero">
+        <div class="hero-container container">
+          <div class="hero-text-container">
+            <p class="hero-text mt">
+              Oe perlltxe hu tsamsiyu! Ngari hu Eywa salew tirea, tokx 'ì'awn
+              slu Na'viyä hapxì. Säwem nìayoeng!
+
+              <img
+                class="hero-img"
+                src="./img/Main/hero/arrow.png"
+                alt="arrow"
+              />
+            </p>
+
+            <p class="hero-text mb w-376">
+              Хоробрий воїне, звертаюсь до тебе! Твій дух йде з Ейвою, твоє тіло
+              залишається, щоб стати частиною Народу. Борись разом з нами!
+            </p>
+            <button class="hero-button" type="button">
+              Приєднатися до клану
+            </button>
+          </div>
+          <div class="svg-container">
+            <ul class="hero-section__list">
+              <li class="hero-section__item">
+                <a href="./" class="hero-section__link" title="inst">
+                  <svg height="30" width="30" class="hero-section__icon">
+                    <use href="./img/icons.svg#icon-inst-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="hero-section__item">
+                <a href="./" class="hero-section__link" title="twitter">
+                  <svg height="30" width="30" class="hero-section__icon">
+                    <use href="./img/icons.svg#icon-twitter-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="hero-section__item">
+                <a href="./" class="hero-section__link" title="youtube">
+                  <svg height="30" width="30" class="hero-section__icon">
+                    <use href="./img/icons.svg#icon-youtube-1"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="quote-section">
+        <h1 class="quote-title">
+          “БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ
+          <br />
+          ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.”
+        </h1>
+
+        <p class="quote-text">Джейк Саллі</p>
+        <img
+          class="quote-img"
+          src="./img/Main/section_two/angel.png"
+          alt="angel"
+        />
+      </section>
+      <section class="trailer-section section">
+        <button class="trailer-button">Дивитись трейлер</button>
+      </section>
+      <section class="quote-section">
+        <h1 class="quote-title">
+          “ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ
+          <br />
+          ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”
+        </h1>
+
+        <p class="quote-text">Джейк Саллі</p>
+        <img
+          class="quote-img"
+          src="./img/Main/section_two/angel.png"
+          alt="angel"
+        />
+      </section>
+      <section class="lang-section section">
+        <div class="lang-container">
+          <h2 class="lang-title">Вчимо мову На’ві</h2>
+          <ul class="lang-list">
+            <li class="lang-item">
+              <h4 class="lang-item-text">Привіт</h4>
+              <img
+                src="./img/Main/section_four/arrow_left.png"
+                class="lang-item-img"
+                alt="left"
+              />
+              <h4 class="lang-bottom-text">kaltxi</h4>
+            </li>
+            <li class="lang-item">
+              <h4 class="lang-item-text">Як справи?</h4>
+              <img
+                src="./img/Main/section_two/angel.png"
+                class="lang-item-img"
+                alt="angel"
+              />
+              <h4 class="lang-bottom-text">Ngaru lu fpom srak</h4>
+            </li>
+            <li class="lang-item">
+              <h4 class="lang-item-text">Все добре</h4>
+              <img
+                src="./img/Main/section_four/arrow_raght.png"
+                class="lang-item-img"
+                alt="right"
+              />
+              <h4 class="lang-bottom-text">Lu fpom</h4>
+            </li>
+            <li class="lang-item">
+              <h4 class="lang-item-text">Дякую</h4>
+              <img
+                src="./img/Main/section_four/arrow_left.png"
+                class="lang-item-img"
+                alt="left"
+              />
+              <h4 class="lang-bottom-text">irayo si</h4>
+            </li>
+            <li class="lang-item">
+              <h4 class="lang-item-text">Я бачу тебе</h4>
+              <img
+                src="./img/Main/section_two/angel.png"
+                class="lang-item-img"
+                alt="angel"
+              />
+              <h4 class="lang-bottom-text">oel ngati kameie</h4>
+            </li>
+            <li class="lang-item">
+              <h4 class="lang-item-text">Слідуй за мною!</h4>
+              <img
+                src="./img/Main/section_four/arrow_raght.png"
+                class="lang-item-img"
+                alt="right"
+              />
+              <h4 class="lang-bottom-text">nong oet</h4>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="quote-section">
+        <h1 class="quote-title">
+          “НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ,
+          <br />
+          ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС.”
+        </h1>
+
+        <p class="quote-text">Нейтірі</p>
+        <img
+          class="quote-img"
+          src="./img/Main/section_two/angel.png"
+          alt="angel"
+        />
+      </section>
+    </main>
+    <!-- <footer>
+      <div class="footer">
+        <div class="footer-container">
+          <img class="footer_logo" src="./img/header/logo.png" alt="logo" />
+          <img
+            class="footer-column"
+            src="./img/footer/footer_column.jpg"
+            alt="footer_column"
+          />
+          <div class="footer-title">
+            <p class="footer-title_text-one">Q&A Email</p>
+            <img
+              class="punktyr_one"
+              src="./img/footer/footer_punktyr.png"
+              alt="punktyr_one"
+            />
+            <p class="footer-title_text-two">avatartwowqa@gmail.com</p>
+          </div>
+          <div class="footer-text">
+            <p>Cooperation E-mail</p>
+            <img
+              class="punktyr_two"
+              src="./img/footer/footer_punktyr.png"
+              alt="punktyr_two"
+            />
+            <p>avatartwowcoop@gmail.com</p>
+          </div>
+          <h5 class="sdfghnb">
+            ©2023 Avatar: The Way Of Water. All rights reserved
+          </h5>
+        </div>
+      </div>
+    </footer> -->
   </body>
 </html>

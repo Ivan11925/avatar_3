@@ -3,7 +3,7 @@
   --main-color: #fff;
   --accent-color: #94cfff;
   --text-color: #0a3853;
-  --button-color: #ea3026;
+  --button-color: #e7ea26ba;
   --accent-button-color: rgb(255, 221, 0);
   --main-font: "Inter", sans-serif;
   --button-font: "Headland One", serif;
@@ -240,6 +240,10 @@ a {
   font-family: "Inter";
   text-align: center;
   color: #0a3853;
+  &:hover,
+  &:focus {
+    color: red;
+  }
 }
 
 .quote-text {
@@ -249,6 +253,10 @@ a {
   font-family: "Inter";
   text-align: center;
   color: #000;
+  &:hover,
+  &:focus {
+    color: red;
+  }
   margin-top: 16px;
 }
 
@@ -288,3 +296,78 @@ a {
 }
 
 /* end trailer */
+
+/* start leng */
+
+.lang-section {
+  background: url(../img/Main/section_four/section_four_background.jpg)
+    lightgray 50% / cover no-repeat;
+  padding: 32px 0 43px;
+  background-size: cover;
+}
+
+.lang-container {
+  max-width: 1033px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.lang-title {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.25;
+  font-family: "Inter";
+  text-align: center;
+  color: #141414;
+}
+
+.lang-list {
+  width: 1033px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 47px auto 0;
+}
+
+.lang-item {
+  width: 320px;
+  height: 240px;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 36px 0;
+}
+
+.lang-item-text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1;
+  font-family: "Inter";
+  text-align: center;
+  color: #141414;
+  &:hover,
+  &:focus {
+    color: var(--button-color);
+  }
+}
+
+.lang-item-img {
+  display: block;
+  margin: 40px auto 0;
+  width: 152px;
+  height: 40px;
+}
+
+.lang-bottom-text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1;
+  font-family: "Inter";
+  text-align: center;
+  color: #000;
+  margin-top: 40px;
+  &:hover,
+  &:focus {
+    color: var(--button-color);
+  }
+}

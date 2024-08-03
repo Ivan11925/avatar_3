@@ -165,8 +165,126 @@ a {
   height: 740px;
   background-image: url(../img/Main/hero/hero-bg.jpg);
   background-repeat: no-repeat;
+  display: flex;
 }
 
 .hero-button {
+  width: 260px;
+  height: 80px;
+  border-radius: 45px 0px;
+  border: 3px #26c7ea;
+
+  background: #0b0e66;
   background-image: url(../img/Main/hero/hero-button.jpg);
+  background-repeat: no-repeat;
 }
+
+.hero-text-container {
+  width: 376px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 204px;
+  margin-right: 780px;
+}
+
+.hero-text {
+  width: 298px;
+  height: auto;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+  font-family: "Inter";
+  text-align: start;
+  color: #fff;
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+.mt {
+  margin-top: 249px;
+}
+
+.mb {
+  margin-bottom: 42px;
+}
+
+.svg-container {
+  width: 50px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-top: 250px;
+}
+
+.w-376 {
+  width: 376px;
+}
+/* hero end */
+
+/* quot start */
+.quote-section {
+  padding: 73px 0 10px;
+  display: table;
+  margin: 0 auto;
+}
+
+.quote-title {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.22;
+  font-family: "Inter";
+  text-align: center;
+  color: #0a3853;
+}
+
+.quote-text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.2;
+  font-family: "Inter";
+  text-align: center;
+  color: #000;
+  margin-top: 16px;
+}
+
+.quote-img {
+  width: 400px;
+  height: 120px;
+
+  margin: 8px auto 0;
+  display: block;
+}
+/* end quote */
+
+/* trailer start */
+.trailer-section {
+  width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 741px;
+  flex-shrink: 0;
+  background: url(../img/Main/section_three/section_three_background.jpg)
+    lightgray 50% / cover no-repeat;
+}
+
+.trailer-button {
+  margin-right: 590px;
+  margin-left: 590px;
+  margin-top: 330px;
+  margin-bottom: 331px;
+  width: 260px;
+  height: 80px;
+  border-radius: 45px 0px;
+  border: 3px #26c7ea;
+
+  background: #0b0e66;
+  background-image: url(../img/Main/hero/hero-button.jpg);
+  background-repeat: no-repeat;
+}
+
+/* end trailer */
